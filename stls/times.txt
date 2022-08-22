@@ -1,0 +1,5 @@
+{
+    "spinner.stl": 25.254,
+    "housing.stl": 20.556,
+    "plate.stl": 27.54
+}

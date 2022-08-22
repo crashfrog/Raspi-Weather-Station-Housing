@@ -1,2 +1,2 @@
 all:
-	python $OPENSCADPATH/NopSCADLib/scripts/make_all.py
+	python ${OPENSCADPATH}/NopSCADLib/scripts/make_all.py
