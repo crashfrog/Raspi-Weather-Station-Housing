@@ -1,0 +1,137 @@
+[
+    {
+        "name": "housing_assembly",
+        "big": null,
+        "ngb": false,
+        "zoomed": 0,
+        "count": 1,
+        "assemblies": {},
+        "vitamins": {
+            "insert(F1BM2p5): Heatfit insert M2.5": {
+                "count": 5
+            },
+            "TO220(\"Hall Effect Sensor\"): Hall Effect Sensor": {
+                "count": 1
+            }
+        },
+        "printed": {
+            "housing.stl": {
+                "count": 1,
+                "colour": "[0, 0.572549, 0]"
+            }
+        },
+        "routed": {}
+    },
+    {
+        "name": "pi_assembly",
+        "big": null,
+        "ngb": false,
+        "zoomed": 0,
+        "count": 1,
+        "assemblies": {},
+        "vitamins": {
+            "pcb(RPI0): Raspberry Pi Zero": {
+                "count": 1
+            },
+            ": Micro SD card": {
+                "count": 1
+            },
+            "pin_header(2p54header, 20, 2): Pin header 20 x 2": {
+                "count": 1
+            },
+            "pcb(QWIIC_HAT): SparkFun Qwiic HAT": {
+                "count": 1
+            },
+            "pin_header(2p54header, 2, 1): Pin header 2 x 1": {
+                "count": 2
+            }
+        },
+        "printed": {},
+        "routed": {}
+    },
+    {
+        "name": "plate_assembly",
+        "big": null,
+        "ngb": false,
+        "zoomed": 0,
+        "count": 1,
+        "assemblies": {
+            "pi_assembly": 1
+        },
+        "vitamins": {
+            "pcb(BME680): BME680 Atmospheric Sensor STEMMA-QT": {
+                "count": 1
+            },
+            "pcb(PMSA003I): PMSA003I Air Particulate Sensor STEMMA-QT": {
+                "count": 1
+            },
+            "pcb(musb_jack): Micro USB Panel Jack": {
+                "count": 1
+            },
+            "screw(M2p5_cap_screw, 15): Screw M2.5 cap x 15mm": {
+                "count": 2
+            },
+            "insert(F1BM2p5): Heatfit insert M2.5": {
+                "count": 13
+            },
+            "screw(M2p5_cap_screw, 5): Screw M2.5 cap x  5mm": {
+                "count": 11
+            }
+        },
+        "printed": {
+            "plate.stl": {
+                "count": 1,
+                "colour": "[0, 0.572549, 0]"
+            }
+        },
+        "routed": {}
+    },
+    {
+        "name": "spinner_assembly",
+        "big": null,
+        "ngb": false,
+        "zoomed": 0,
+        "count": 1,
+        "assemblies": {},
+        "vitamins": {
+            "ball_bearing(BB608): Ball bearing 608-2RS 8mm x 22mm x 7mm": {
+                "count": 1
+            },
+            "magnet(MAG5x1): Magnet, 5mm diameter, 1mm high": {
+                "count": 1
+            }
+        },
+        "printed": {
+            "spinner.stl": {
+                "count": 1,
+                "colour": "[0, 0.572549, 0]"
+            }
+        },
+        "routed": {}
+    },
+    {
+        "name": "main_assembly",
+        "big": null,
+        "ngb": false,
+        "zoomed": 0,
+        "count": 1,
+        "assemblies": {
+            "spinner_assembly": 1,
+            "plate_assembly": 1,
+            "housing_assembly": 1
+        },
+        "vitamins": {
+            "rod(8, 200): Smooth rod 8mm x 200mm": {
+                "count": 1
+            },
+            "screw(M2p5_cap_screw, 7): Screw M2.5 cap x  7mm": {
+                "count": 4
+            },
+            "screw(M2p5_cap_screw, 15): Screw M2.5 cap x 15mm": {
+                "count": 1
+            }
+        },
+        "printed": {},
+        "routed": {}
+    }
+]

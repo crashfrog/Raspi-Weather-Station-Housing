@@ -1,0 +1,36 @@
+Vitamins:
+ H           S
+ o           p
+ u        P  i
+ s  M     l  n
+ i  a     a  n
+ n  i  P  t  e
+ g  n  i  e  r
+  |  | 1|  |  |  1 Micro SD card
+ 1|  |  |  |  |  1 Hall Effect Sensor
+  |  |  |  | 1|  1 Ball bearing 608-2RS 8mm x 22mm x 7mm
+ 5|  |  |13|  | 18 Heatfit insert M2.5
+  |  |  |  | 1|  1 Magnet, 5mm diameter, 1mm high
+  |  |  | 1|  |  1 BME680 Atmospheric Sensor STEMMA-QT
+  |  |  | 1|  |  1 PMSA003I Air Particulate Sensor STEMMA-QT
+  |  | 1|  |  |  1 SparkFun Qwiic HAT
+  |  | 1|  |  |  1 Raspberry Pi Zero
+  |  |  | 1|  |  1 Micro USB Panel Jack
+  |  | 2|  |  |  2 Pin header 2 x 1
+  |  | 1|  |  |  1 Pin header 20 x 2
+  | 1|  |  |  |  1 Smooth rod 8mm x 200mm
+  | 1|  | 2|  |  3 Screw M2.5 cap x 15mm
+  |  |  |11|  | 11 Screw M2.5 cap x  5mm
+  | 4|  |  |  |  4 Screw M2.5 cap x  7mm
+
+Printed:
+ 1|  |  |  |  |  1 housing.stl
+  |  |  | 1|  |  1 plate.stl
+  |  |  |  | 1|  1 spinner.stl
+
+Assemblies:
+  1 housing_assembly
+  1 main_assembly
+  1 pi_assembly
+  1 plate_assembly
+  1 spinner_assembly

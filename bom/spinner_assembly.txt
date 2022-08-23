@@ -1,0 +1,7 @@
+spinner_assembly:
+Vitamins:
+  1 Ball bearing 608-2RS 8mm x 22mm x 7mm
+  1 Magnet, 5mm diameter, 1mm high
+
+Printed:
+  1 spinner.stl

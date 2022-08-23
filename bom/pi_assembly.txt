@@ -1,0 +1,7 @@
+pi_assembly:
+Vitamins:
+  1 Micro SD card
+  1 SparkFun Qwiic HAT
+  1 Raspberry Pi Zero
+  2 Pin header 2 x 1
+  1 Pin header 20 x 2

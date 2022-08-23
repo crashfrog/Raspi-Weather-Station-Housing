@@ -1,0 +1,10 @@
+main_assembly:
+Vitamins:
+  1 Smooth rod 8mm x 200mm
+  1 Screw M2.5 cap x 15mm
+  4 Screw M2.5 cap x  7mm
+
+Assemblies:
+  1 housing_assembly
+  1 plate_assembly
+  1 spinner_assembly

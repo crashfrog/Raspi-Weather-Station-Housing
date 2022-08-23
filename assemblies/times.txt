@@ -1,0 +1,13 @@
+{
+    "assemblies/main_assembled.png": 36.012,
+    "assemblies/main_assembly.png": 34.513,
+    "assemblies/spinner_assembled.png": 35.706,
+    "assemblies/spinner_assembly.png": 33.465,
+    "assemblies/housing_assembled.png": 30.977,
+    "assemblies/housing_assembly.png": 34.742,
+    "assemblies/pi_assembled.png": 34.999,
+    "assemblies/pi_assembly.png": 34.654,
+    "assemblies/plate_assembled.png": 38.327,
+    "assemblies/plate_assembly.png": 41.38,
+    "readme.html": 0.047
+}

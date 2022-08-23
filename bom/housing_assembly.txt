@@ -1,0 +1,7 @@
+housing_assembly:
+Vitamins:
+  1 Hall Effect Sensor
+  5 Heatfit insert M2.5
+
+Printed:
+  1 housing.stl

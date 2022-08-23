@@ -1,0 +1,14 @@
+plate_assembly:
+Vitamins:
+ 13 Heatfit insert M2.5
+  1 BME680 Atmospheric Sensor STEMMA-QT
+  1 PMSA003I Air Particulate Sensor STEMMA-QT
+  1 Micro USB Panel Jack
+  2 Screw M2.5 cap x 15mm
+ 11 Screw M2.5 cap x  5mm
+
+Printed:
+  1 plate.stl
+
+Assemblies:
+  1 pi_assembly
