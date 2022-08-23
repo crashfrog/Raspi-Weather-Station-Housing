@@ -90,7 +90,7 @@ QWIIC_HAT = ["QWIIC_HAT", "SparkFun Qwiic HAT",
     [],
 ];
 
-//!pcb(QWIIC_HAT);
+
 
 USB_PANEL = ["musb_jack", "Micro USB Panel Jack", 
      36, 10, 8,4.9,3,2,grey(15), false, 
@@ -104,15 +104,13 @@ USB_PANEL = ["musb_jack", "Micro USB Panel Jack",
      ],[]
 ];
 
-//!pcb(USB_PANEL);
 
-//!pcb(PMSA003I);
 
-//! Assembly instructions
-//! Mount the anemometer spinner on top of the mounting rod.
-//! Slide the housing up the rod and mount with an M2.5x15 screw.
-//! Connect the hall effect sensor to the RasPI.
-//! Mate the PCB base to the housing using M2.5x5 screws.
+//! Assembly instructions  
+//! Mount the anemometer spinner on top of the mounting rod.  
+//! Slide the housing up the rod and mount with an M2.5x15 screw.  
+//! Connect the hall effect sensor to the RasPI.  
+//! Mate the PCB base to the housing using M2.5x5 screws.  
 module main_assembly()
 assembly("main"){
     explode(30, explode_children=true) translate([0,0,tallness])  spinner_assembly();
@@ -144,7 +142,7 @@ module spinner_cup(r=30, t=1, r2=80, top=true){
 }
 
 
-//!spinner_cup();
+
 
 module spinner_stl(c=3, cr=25, r=75)
 color("teal") stl("spinner"){
@@ -165,11 +163,11 @@ color("teal") stl("spinner"){
     }
 }
 
-//!spinner_stl();
 
 
-//! Press-fit the skate bearing into the anemometer spinner.
-//! Epoxy or glue the magnet into the magnet void.
+
+//! Press-fit the skate bearing into the anemometer spinner.  
+//! Epoxy or glue the magnet into the magnet void.  
 module spinner_assembly()
 assembly("spinner"){
     explode(-20) translate([0,0,bb_width(bearing)/2]) ball_bearing(bearing);
@@ -177,7 +175,7 @@ assembly("spinner"){
     explode(10) rotate([0,0,0]) color("teal") spinner_stl();
 }
 
-//!spinner_assembly();
+
 
 
 
@@ -190,7 +188,7 @@ module enc_hull(w=base_width, h=base_height, z=tallness-1){
     }
 }
 
-//!enc_hull();
+
 
 module vents(n=5, h=20, w=40){
     vh=h;
@@ -206,7 +204,7 @@ module vents(n=5, h=20, w=40){
     }
 }
 
-//!vents();
+
 
 w=5;
 
@@ -238,10 +236,7 @@ stl("housing"){
     }
 }
 
-//!intersection(){
-//    rotate([0,0,0]) housing_stl();
-//    translate([-100,0,0]) cube([200, 400, 400], center=true);
-//}
+
 
 //! Heat-set inserts into the four plate mounting lugs and into the rod retaining lug.
 module housing_assembly()
@@ -291,17 +286,15 @@ assembly("pi"){
     explode(25) translate([0,19,9]) rotate([180,0,-90]) pcb(QWIIC_HAT);
     explode(30) translate([-10,19,9]) pin_header(2p54header, 2, 1);
     explode(30) translate([20,19,9]) pin_header(2p54header, 2, 1);
-    translate([-55,-36,0]) cube([85, 20, 12]);
+    //translate([-55,-36,0]) cube([85, 20, 12]); //cable clearance for a right-angle jack adapter
 }
 
-//!pi_assembly();
 
-//!plate_stl();
 
-//! Insert the heat-set inserts.
-//! Mount the components.
-//! Mount the panel-mount USB connector, and connect to the RPi0.
-//! Connect the components using STEMMA-QT cables.
+//! Insert the heat-set inserts.  
+//! Mount the components.  
+//! Mount the panel-mount USB connector, and connect to the RPi0.  
+//! Connect the components using STEMMA-QT cables.  
 module plate_assembly()
 assembly("plate"){
     explode(25) translate([0,0,s]) {
@@ -325,14 +318,5 @@ assembly("plate"){
     color("teal") plate_stl();
 }
 
-
-
-//!spinner_assembly();
-//!plate_assembly();
-//!housing_assembly();
-
-//!plate_stl();
-//!housing_stl();
-//!spinner_stl();
 
 if($preview) main_assembly();

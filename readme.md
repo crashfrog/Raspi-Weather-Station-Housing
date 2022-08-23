@@ -71,7 +71,6 @@ An anaerometer and atmospheric sampling station based on RasPi Zero W.
 ### Assembly instructions
 ![housing_assembly](assemblies/housing_assembly.png)
 
-intersection(){
 Heat-set inserts into the four plate mounting lugs and into the rod retaining lug.
 
 ![housing_assembled](assemblies/housing_assembled.png)
@@ -133,12 +132,10 @@ Heat-set inserts into the four plate mounting lugs and into the rod retaining lu
 ### Assembly instructions
 ![plate_assembly](assemblies/plate_assembly.png)
 
-pi_assembly();
-plate_stl();
-Insert the heat-set inserts.
-Mount the components.
-Mount the panel-mount USB connector, and connect to the RPi0.
-Connect the components using STEMMA-QT cables.
+Insert the heat-set inserts.  
+Mount the components.  
+Mount the panel-mount USB connector, and connect to the RPi0.  
+Connect the components using STEMMA-QT cables.  
 
 ![plate_assembled](assemblies/plate_assembled.png)
 
@@ -166,9 +163,8 @@ Connect the components using STEMMA-QT cables.
 ### Assembly instructions
 ![spinner_assembly](assemblies/spinner_assembly.png)
 
-spinner_stl();
-Press-fit the skate bearing into the anemometer spinner.
-Epoxy or glue the magnet into the magnet void.
+Press-fit the skate bearing into the anemometer spinner.  
+Epoxy or glue the magnet into the magnet void.  
 
 ![spinner_assembled](assemblies/spinner_assembled.png)
 
@@ -197,14 +193,11 @@ Epoxy or glue the magnet into the magnet void.
 ### Assembly instructions
 ![main_assembly](assemblies/main_assembly.png)
 
-pcb(QWIIC_HAT);
-pcb(USB_PANEL);
-pcb(PMSA003I);
-Assembly instructions
-Mount the anemometer spinner on top of the mounting rod.
-Slide the housing up the rod and mount with an M2.5x15 screw.
-Connect the hall effect sensor to the RasPI.
-Mate the PCB base to the housing using M2.5x5 screws.
+Assembly instructions  
+Mount the anemometer spinner on top of the mounting rod.  
+Slide the housing up the rod and mount with an M2.5x15 screw.  
+Connect the hall effect sensor to the RasPI.  
+Mate the PCB base to the housing using M2.5x5 screws.  
 
 ![main_assembled](assemblies/main_assembled.png)
 
